@@ -1,0 +1,18 @@
+{
+    "name": "ddeboer/salesforce-bulk-bundle",
+    "type": "symfony-bundle",
+    "description": "A Salesforce Bulk API Client",
+    "keywords": [ "salesforce", "soap", "web service" ],
+    "homepage": "https://github.com/ddeboer/DdeboerSalesforceBulkBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David de Boer",
+            "email": "david@ddeboer.nl"
+        }
+    ],
+    "require": {
+        "ddeboer/salesforce-client-bundle": ">=0.1",
+        "guzzle/guzzle": "2.0.*"
+    }
+}
